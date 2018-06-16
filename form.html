@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COGZ CMMS login form</title>
+<style>
+      body{
+          margin:0px;
+          }
+     h1
+      {
+   text-align:center;
+   background-color:lightblue;
+      }
+     p
+       {
+       text-align:center;
+       background-color:lightgray;
+          }
+        table,tr, td{
+         margin-right:500px;
+         padding:10px;
+         border:2px solid lightblue;
+         border-collapse:collapse;
+        }
+        td{
+          width:100px;
+        }
+      textarea{
+          overflow-y:scroll;
+      }
+    footer
+         {
+           margin:40px;
+           padding:5px;
+          text-align:center;
+          }
+
+</style>
+</head>
+<body>
+  <div>
+     <h1 >Web Work Order Request Form</h1>
+     <p>Use this form to dubmit a work order request to COGZ CMMC software in Your maintenance department</p>
+  </div>
+  <!--simple form-->
+<div>
+  <table width=100%>
+  <tr>
+    <td>
+      Your Name
+    </td>
+    <td>
+         <input type="text" size="80px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+        Your Mail
+    </td>
+    <td>
+         <input type="email"size="80px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      To Mail
+    </td>
+    <td>
+         <input type="email" value="cogzworerequest@mycompany.com"size="80px" readonly>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Short Descripation
+    </td>
+    <td>
+         <input type="text"size="80px">
+    </td>
+  </tr>
+  <tr>
+    <td>
+        Enter Details of Request Of this Form.Multiple request will not be processed
+    </td>
+    <td>
+         <textarea rows="5"cols="90"></textarea>
+    </td>
+  </tr>
+</table>
+</div>
+  <!--submit-->
+    <footer>
+         <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <br><br>
+         <small>*Required enteries</small>
+    </footer>
+</body>
+</html>
